@@ -167,6 +167,11 @@ mend connectivity --mend-url https://saas-il.mend.io/
 export MEND_LOG_LEVEL="DEBUG"  # Linux
 setx MEND_LOG_LEVEL "DEBUG"    # Windows
 --log-level debug
+LOG_LEVEL=DEBUG
+EXTERNAL_LOG_IN_CONSOLE=true
+WS_UA_LOG_IN_CONSOLE=true
+ 
+
 ```
 
 Log levels:
