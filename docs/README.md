@@ -162,6 +162,10 @@ deactivate
 mend connectivity --mend-url https://saas-il.mend.io/
 ```
 
+### **check jar connectivity**
+curl -L -o mend-unified-agent.jar  https://downloads.mend.io/production/unified/25.12.2/wss-unified-agent.jar
+```
+
 ### **Logging Levels**
 ```bash
 export MEND_LOG_LEVEL="DEBUG"  # Linux
