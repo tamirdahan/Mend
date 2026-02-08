@@ -163,6 +163,7 @@ mend connectivity --mend-url https://saas-il.mend.io/
 ```
 
 ### **check jar connectivity**
+```bash
 curl -L -o mend-unified-agent.jar  https://downloads.mend.io/production/unified/25.12.2/wss-unified-agent.jar
 ```
 
