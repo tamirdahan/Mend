@@ -197,28 +197,29 @@ Log levels:
 
 ---
 
-## 🧠 Exit Code
-https://docs.mend.io/platform/latest/mend-cli-exit-codes?utm_source=chatgpt.com
+## 🧠 Mend CLI Exit Codes
 
-Code	Meaning
-|------|--------------|
-| `0` | 	  Scan completed successfully |
-| `1` | 	  Invalid configuration parameter (wrong CLI flag or typo) |
-| `2` | 	  Cannot access Mend server / license (network or URL issue) |
-| `3` |	  Invalid license for the scanning engine |
-| `4` |	  No supported programming language detected in the project |
-| `5` |	  Internal communication problem between CLI and scanning engine |
-| `6` |	  Engine startup failure (corrupted file or missing executable) |
-| `7` |	  Cannot create cache directory (permission issue) |
-| `8` |	  CLI failed to update scanning engines and no cached version exists |
-| `9` |	  Policy violation found in the scan results |
-| `10` |	Scan engine stalled or failed |
-| `11` |	Target directory invalid or inaccessible |
-| `12` |	Version mismatch between CLI and module (run mend update) |
-| `13` |	Error exporting scan results (unsupported format or path issue)|
+Reference:  
+https://docs.mend.io/platform/latest/mend-cli-exit-codes
+
+| Code | Meaning |
+|------|--------|
+| `0` | Scan completed successfully |
+| `1` | Invalid configuration parameter (wrong CLI flag or typo) |
+| `2` | Cannot access Mend server / license (network or URL issue) |
+| `3` | Invalid license for the scanning engine |
+| `4` | No supported programming language detected in the project |
+| `5` | Internal communication problem between CLI and scanning engine |
+| `6` | Engine startup failure (corrupted file or missing executable) |
+| `7` | Cannot create cache directory (permission issue) |
+| `8` | CLI failed to update scanning engines and no cached version exists |
+| `9` | Policy violation found in the scan results |
+| `10` | Scan engine stalled or failed |
+| `11` | Target directory invalid or inaccessible |
+| `12` | Version mismatch between CLI and module (`run mend update`) |
+| `13` | Error exporting scan results (unsupported format or path issue) |
 
 ---
-
 
 ## 🔗 Mend API Calls
 
